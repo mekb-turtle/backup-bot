@@ -1,0 +1,13 @@
+{
+	"name": "backup-bot",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"deploy-commands": "node src/deploy-commands.js"
+	},
+	"author": "mekb-turtle",
+	"dependencies": {
+		"discord.js": "^14.11.0",
+		"dotenv": "^16.0.3"
+	}
+}
